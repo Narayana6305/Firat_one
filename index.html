@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Product Landing Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header {
+      background: #2c3e50;
+      color: #fff;
+      padding: 1rem 0;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      background: #34495e;
+      padding: 1rem;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1581091012184-5c1bd7b9d4a7?auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+      height: 90vh;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 1rem 2rem;
+      border-radius: 10px;
+    }
+    .section {
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+    .section h2 {
+      color: #2c3e50;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+    }
+    .feature {
+      background: #ecf0f1;
+      padding: 2rem;
+      border-radius: 10px;
+      width: 250px;
+    }
+    .feature img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .cta {
+      background: #27ae60;
+      color: white;
+      padding: 2rem;
+      margin-top: 2rem;
+      border-radius: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #2c3e50;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Product</h1>
+    <p>Innovative. Reliable. Affordable.</p>
+  </header>
+
+  <nav>
+    <a href="#features">Features</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Discover the Future of Tech</h1>
+  </section>
+
+  <section class="section" id="features">
+    <h2>Features</h2>
+    <div class="features">
+      <div class="feature">
+        <img src="https://via.placeholder.com/200" alt="Feature 1">
+        <h3>Fast Performance</h3>
+        <p>Experience blazing fast speed and smooth interactions.</p>
+      </div>
+      <div class="feature">
+        <img src="https://via.placeholder.com/200" alt="Feature 2">
+        <h3>Smart Integration</h3>
+        <p>Works seamlessly with your favorite tools and services.</p>
+      </div>
+      <div class="feature">
+        <img src="https://via.placeholder.com/200" alt="Feature 3">
+        <h3>24/7 Support</h3>
+        <p>We're always here to help you, anytime, anywhere.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <h2>About Our Product</h2>
+    <p>Our product is built to solve real-world problems with cutting-edge technology, intuitive design, and unmatched performance. Whether you're a business or an individual, our product adapts to your needs effortlessly.</p>
+  </section>
+
+  <section class="section cta" id="contact">
+    <h2>Ready to Get Started?</h2>
+    <p>Join thousands of satisfied users today.</p>
+    <a href="#" style="color: white; font-weight: bold;">Contact Us</a>
+  </section>
+
+  <footer>
+    <p>© 2025 My Product. All rights reserved.</p>
+  </footer>
+
+</body>
+  </html>
